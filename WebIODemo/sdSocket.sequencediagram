@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="2c5536a2-48db-4aba-b413-de26c70771af" name="sdSocket" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="94964670-1662-4002-8dc4-ff74ca9b5c64" name="sdSocket" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="ab1ef99c-fffc-427b-bb5f-056dc218270a" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="e7cf565b-b4c1-4bf5-9d68-f40e5c32caff" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="f109092a-f657-473d-a1bd-b30177dd1eae" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="340be051-84d3-49b4-b2d9-ece64cdccceb" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f79eed7a-7e94-4b2b-897d-3d39a7a603ff" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="f109092a-f657-473d-a1bd-b30177dd1eae" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4852be08-452e-4be1-a846-2abb514efd97" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2abacdb5-46c3-46f0-8d81-48fea4bb5035" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="83abe3fa-25f1-4374-9ea5-1f2218d4667f" LastKnownName="Socket Client" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="340be051-84d3-49b4-b2d9-ece64cdccceb" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f79eed7a-7e94-4b2b-897d-3d39a7a603ff" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5ea99ee7-ea5b-4b50-91f9-47554c5f2595" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="83abe3fa-25f1-4374-9ea5-1f2218d4667f" LastKnownName="Socket Client" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="e7cf565b-b4c1-4bf5-9d68-f40e5c32caff" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e60d0959-5a31-4aa6-8a76-3553ed36e969" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="4c26c7be-c8a2-4bcc-9a30-c324a0c55385" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="8522c67a-5e36-4b68-9a8c-65c796cec852" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="eb6ac269-f878-42d7-96ee-bbd3db6053a3" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="226d2fa5-f2c5-4e36-8555-516880de5632" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="65127127-b287-4cc8-96bb-0e189f357d67" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="eb6ac269-f878-42d7-96ee-bbd3db6053a3" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4d3414b2-807b-4e25-a559-c2f48c78ba11" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="226d2fa5-f2c5-4e36-8555-516880de5632" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f61b0e67-593d-485a-a3a4-e888c7714be7" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="83abe3fa-25f1-4374-9ea5-1f2218d4667f" LastKnownName="Socket Client" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="dc9feb21-4fdd-4bbd-82b3-a2512075a3d4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="83abe3fa-25f1-4374-9ea5-1f2218d4667f" LastKnownName="Socket Client" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="65127127-b287-4cc8-96bb-0e189f357d67" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="8522c67a-5e36-4b68-9a8c-65c796cec852" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="38a659e3-b40d-492a-9716-fb51c6690fa7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" LastKnownName="WebIO Socket Server" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="83abe3fa-25f1-4374-9ea5-1f2218d4667f" name="Socket Client" isActor="false" lifelineDisplayName="Socket Client">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="2abacdb5-46c3-46f0-8d81-48fea4bb5035" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="5ea99ee7-ea5b-4b50-91f9-47554c5f2595" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f61b0e67-593d-485a-a3a4-e888c7714be7" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="dc9feb21-4fdd-4bbd-82b3-a2512075a3d4" LastKnownName="MessageOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="e5c31767-7a4b-4bfe-989f-c604d56b829a" name="WebIO Socket Server" isActor="false" lifelineDisplayName="WebIO Socket Server">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="f109092a-f657-473d-a1bd-b30177dd1eae" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="e7cf565b-b4c1-4bf5-9d68-f40e5c32caff" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="eb6ac269-f878-42d7-96ee-bbd3db6053a3" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="8522c67a-5e36-4b68-9a8c-65c796cec852" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="f34983c4-e862-4798-871e-89825c9eda0f" name="TCP_client.Receive" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="2abacdb5-46c3-46f0-8d81-48fea4bb5035" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="340be051-84d3-49b4-b2d9-ece64cdccceb" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="922c3f26-5193-41f0-b190-d6750795d07d" name="ASCII" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f79eed7a-7e94-4b2b-897d-3d39a7a603ff" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5ea99ee7-ea5b-4b50-91f9-47554c5f2595" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ba9960f3-460c-49b1-9d64-18929d9ceaa8" name="TCP_client.Send-&gt;ASCII" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f61b0e67-593d-485a-a3a4-e888c7714be7" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="226d2fa5-f2c5-4e36-8555-516880de5632" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="18d88278-cd28-4ea5-9ff2-421eadebb02d" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="65127127-b287-4cc8-96bb-0e189f357d67" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="dc9feb21-4fdd-4bbd-82b3-a2512075a3d4" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4852be08-452e-4be1-a846-2abb514efd97" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e60d0959-5a31-4aa6-8a76-3553ed36e969" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4d3414b2-807b-4e25-a559-c2f48c78ba11" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="38a659e3-b40d-492a-9716-fb51c6690fa7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

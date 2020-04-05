@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="e4c96765-c3b1-48a4-9c21-ebe09a30813c" name="sdDriverFrame" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="f5afd3b5-dcfa-4acf-8c25-cff89c3420b6" name="sdDriverFrame" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <ownedCommentsInternal>
+          <comment Id="c7b327ce-ad2c-4d2c-a7e2-df00e2401f25">
+            <body>MACMS</body>
+          </comment>
+          <comment Id="a49d973e-3966-4be4-8797-938006c1e063">
+            <body>MACRU</body>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification Id="5919300e-d956-453a-b8a4-cd85a6da7bd0" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="0bf95c39-9b22-4a46-8950-bfa07086bfb1" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="57a7d286-3593-45a8-9f54-570d21418077" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e0866690-061a-4791-a8a4-f984bf4bc90f" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="60e9bc9e-362f-4fa2-944e-61997c4382a8" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="7f3f53a5-3f0a-4158-8ecd-6543efe6537c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f265dcdd-7a02-4d6f-9e47-60710e3a8e16" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="57a7d286-3593-45a8-9f54-570d21418077" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="29b9434e-a069-4be4-a286-7610fb047e14" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e0866690-061a-4791-a8a4-f984bf4bc90f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6670448b-d25a-4da9-bb42-9dcd5f1db8f3" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="8bb3ab99-70e5-40ae-9d56-84a50b0ff293" LastKnownName="DriverFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="dfffdc4c-ebb9-45c9-8e04-e5d2ce253155" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="7677bdc0-37e7-459b-949d-5444f687fe60" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="c71d7049-9689-4d9d-9cd9-4b9b4f8a41ec" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="f5b06f2d-4f3b-448d-8e34-ff11b34b5ea2" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f74278c7-ed65-4b30-8f66-6979d4b6b7bd" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="c71d7049-9689-4d9d-9cd9-4b9b4f8a41ec" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6f6016b8-ecd1-4b47-8700-54b2e7499af0" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="60e9bc9e-362f-4fa2-944e-61997c4382a8" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f5b06f2d-4f3b-448d-8e34-ff11b34b5ea2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f74278c7-ed65-4b30-8f66-6979d4b6b7bd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7f3f53a5-3f0a-4158-8ecd-6543efe6537c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="7677bdc0-37e7-459b-949d-5444f687fe60" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6df0b045-cf67-462d-a792-24faeaf75ad7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f265dcdd-7a02-4d6f-9e47-60710e3a8e16" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="70346bbb-2101-4043-89ef-50f44c045707" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="8bb3ab99-70e5-40ae-9d56-84a50b0ff293" LastKnownName="DriverFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="0bf95c39-9b22-4a46-8950-bfa07086bfb1" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="44bb5e2f-206c-4157-b959-a952f796e1fe" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="2d1a8a67-d33a-450e-9ce7-cd89f15391e6" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="fb8af117-2777-453a-97cf-71105671ee59" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="f2535e7d-7eb8-4048-be90-357e7263aaa9" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e97e2c9e-5afe-4709-823a-f3595c2e6f43" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6e4ed611-2750-4fc0-b708-980aa9e18aa7" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="331cf661-ed6c-48ff-b5f3-4757e0c85914" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e86cf057-8be8-499f-8322-d700e8cad38c" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="f2535e7d-7eb8-4048-be90-357e7263aaa9" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b452595c-3e96-4017-8199-c235eaa1aadf" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e97e2c9e-5afe-4709-823a-f3595c2e6f43" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b6fd0429-42ea-4bbd-a9d9-2dca07a06b39" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="8bb3ab99-70e5-40ae-9d56-84a50b0ff293" LastKnownName="DriverFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="323fb6b2-1747-43da-bf5f-5a57e48c1e69" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="6754c5f7-257f-4bd9-8c7f-c123bec1fdcd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="6fd5662f-9efd-4b53-ac17-d9129fca147c" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="fb0bd87e-3abb-402e-9db0-04148bb0032e" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="15165597-3c42-46e3-8ab0-98076fadd121" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="6fd5662f-9efd-4b53-ac17-d9129fca147c" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="afa4d13c-3f1c-4d95-9e36-775cfad12b40" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6e4ed611-2750-4fc0-b708-980aa9e18aa7" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="fb0bd87e-3abb-402e-9db0-04148bb0032e" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="15165597-3c42-46e3-8ab0-98076fadd121" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="331cf661-ed6c-48ff-b5f3-4757e0c85914" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="6754c5f7-257f-4bd9-8c7f-c123bec1fdcd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e05af312-4bc5-4558-ae83-0ad04d59fa64" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="58427364-9b75-4eee-93f5-ebd66a419ef3" LastKnownName="WebIO" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e86cf057-8be8-499f-8322-d700e8cad38c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7c4a7d7a-384f-4eb4-ab3f-bba64b8805b4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="8bb3ab99-70e5-40ae-9d56-84a50b0ff293" LastKnownName="DriverFrame" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="fb8af117-2777-453a-97cf-71105671ee59" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5dd92050-7af0-44d3-85c1-49d1213d2c1e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" LastKnownName="WebIO Dll" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="8bb3ab99-70e5-40ae-9d56-84a50b0ff293" name="DriverFrame" isActor="false" lifelineDisplayName="DriverFrame">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="6670448b-d25a-4da9-bb42-9dcd5f1db8f3" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="70346bbb-2101-4043-89ef-50f44c045707" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="b6fd0429-42ea-4bbd-a9d9-2dca07a06b39" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="7c4a7d7a-384f-4eb4-ab3f-bba64b8805b4" LastKnownName="MessageOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="361c5bae-bb89-4d92-aca3-d8a93a05a71e" name="WebIO Dll" isActor="false" lifelineDisplayName="WebIO Dll">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="57a7d286-3593-45a8-9f54-570d21418077" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="0bf95c39-9b22-4a46-8950-bfa07086bfb1" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="f2535e7d-7eb8-4048-be90-357e7263aaa9" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="fb8af117-2777-453a-97cf-71105671ee59" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="58427364-9b75-4eee-93f5-ebd66a419ef3" name="WebIO" isActor="false" lifelineDisplayName="WebIO">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="c71d7049-9689-4d9d-9cd9-4b9b4f8a41ec" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="7677bdc0-37e7-459b-949d-5444f687fe60" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="6fd5662f-9efd-4b53-ac17-d9129fca147c" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="6754c5f7-257f-4bd9-8c7f-c123bec1fdcd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="849fe695-ea57-4942-a3f1-725e1d900e38" name="MACMS" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6670448b-d25a-4da9-bb42-9dcd5f1db8f3" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e0866690-061a-4791-a8a4-f984bf4bc90f" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="89328934-6aae-4816-bc73-489ded76739b" name="Get Inputs" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="60e9bc9e-362f-4fa2-944e-61997c4382a8" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="f5b06f2d-4f3b-448d-8e34-ff11b34b5ea2" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="bb8fd3e2-2b2f-41c7-b6f1-7ca3c0175a15" name="input;0004" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f74278c7-ed65-4b30-8f66-6979d4b6b7bd" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="7f3f53a5-3f0a-4158-8ecd-6543efe6537c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="cbccd3e9-729a-4a42-b8ea-8d8a581c1fc0" name="Ready/Run/Error" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f265dcdd-7a02-4d6f-9e47-60710e3a8e16" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="70346bbb-2101-4043-89ef-50f44c045707" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="395d5ee6-bbef-4257-a09c-639c9bb8c0ef" name="MACRU" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b6fd0429-42ea-4bbd-a9d9-2dca07a06b39" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e97e2c9e-5afe-4709-823a-f3595c2e6f43" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="fbf0251a-437f-40b8-87bc-2b4086926494" name="set outputs" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6e4ed611-2750-4fc0-b708-980aa9e18aa7" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="fb0bd87e-3abb-402e-9db0-04148bb0032e" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="8410e568-1d98-4e2c-a532-873a40c3facb" name="output;0FFF" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="15165597-3c42-46e3-8ab0-98076fadd121" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="331cf661-ed6c-48ff-b5f3-4757e0c85914" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="630de2f5-9cc8-4b5a-b4d0-f45d05d4f115" name="OK*" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e86cf057-8be8-499f-8322-d700e8cad38c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="7c4a7d7a-384f-4eb4-ab3f-bba64b8805b4" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="29b9434e-a069-4be4-a286-7610fb047e14" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="44bb5e2f-206c-4157-b959-a952f796e1fe" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6f6016b8-ecd1-4b47-8700-54b2e7499af0" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6df0b045-cf67-462d-a792-24faeaf75ad7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b452595c-3e96-4017-8199-c235eaa1aadf" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5dd92050-7af0-44d3-85c1-49d1213d2c1e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="afa4d13c-3f1c-4d95-9e36-775cfad12b40" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e05af312-4bc5-4558-ae83-0ad04d59fa64" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
