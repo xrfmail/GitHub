@@ -1,0 +1,3 @@
+﻿https://bbs.csdn.net/topics/391069733
+
+XmlSerializer 特殊处理实现 IEnumerable 或 ICollection 的类。 实现 IEnumerable 的类必须实现包含单个参数的公共 Add 方法。 Add 方法的参数的类型必须与从 Current 属性（此属性在从 GetEnumerator 返回的值上）返回的类型相同，或是该类型的基之一。 除了 IEnumerable 外，实现 ICollection（如 CollectionBase）的类还必须有一个包含整数的公共 Item 索引属性（在 C# 中为索引器），且必须有一个整数类型的公共 Count 属性。 Add 方法的参数类型必须与从 Item 属性返回的类型相同，或者为此类型的基之一。 对于实现 ICollection 的类，从具有索引的 Item 属性检索要序列化的值，而不是通过调用 GetEnumerator。

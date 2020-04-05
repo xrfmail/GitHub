@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{995698C3-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimatedDemo", "AnimatedDemo\AnimatedDemo.csproj", "{6A9EF4A7-F926-4697-A346-33A99B002ED7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingExample", "BindingDemo\BindingExample.csproj", "{A0055D88-E42E-4CB7-8ECD-30F352D36D97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{6A9EF4A7-F926-4697-A346-33A99B002ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A9EF4A7-F926-4697-A346-33A99B002ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A9EF4A7-F926-4697-A346-33A99B002ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0055D88-E42E-4CB7-8ECD-30F352D36D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0055D88-E42E-4CB7-8ECD-30F352D36D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0055D88-E42E-4CB7-8ECD-30F352D36D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0055D88-E42E-4CB7-8ECD-30F352D36D97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{875E0B34-BE8E-4863-A147-D532E1381F6A} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
 		{6A9EF4A7-F926-4697-A346-33A99B002ED7} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
+		{A0055D88-E42E-4CB7-8ECD-30F352D36D97} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {330DAE6C-CA00-4FF3-A87D-4B93BA661FA4}
