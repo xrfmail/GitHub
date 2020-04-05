@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "More";
+}
+
+<h2>More  @ViewBag.name, welcome!</h2>
+<h2>str value is  @ViewBag.str1</h2>
+
+//Razor:
+@foreach (var item in (List<string>)ViewBag.data)
+{
+<td class="form-title">@item</td>
+}
+
+
