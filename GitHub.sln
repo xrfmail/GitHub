@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcdemo", "mvcdemo\mvcdemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortScaner", "PortScaner\PortScaner.csproj", "{6303E3E5-50C0-47E8-B616-ADC20D03A233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrayIconTest", "TrayIconTest\TrayIconTest.csproj", "{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,14 @@ Global
 		{6303E3E5-50C0-47E8-B616-ADC20D03A233}.Release|Any CPU.ActiveCfg = Release|x86
 		{6303E3E5-50C0-47E8-B616-ADC20D03A233}.Release|x86.ActiveCfg = Release|x86
 		{6303E3E5-50C0-47E8-B616-ADC20D03A233}.Release|x86.Build.0 = Release|x86
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +92,7 @@ Global
 		{F296AC64-E0BD-4002-ABF6-6A8DBA63926E} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
 		{8FA9E681-5931-4301-ADC8-B8878191497A} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
 		{6303E3E5-50C0-47E8-B616-ADC20D03A233} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
+		{FC58C62F-C16F-4EE0-9AEF-9855C5129C5D} = {995698C3-DAE2-4C73-8F94-42F26A8AC243}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {330DAE6C-CA00-4FF3-A87D-4B93BA661FA4}
