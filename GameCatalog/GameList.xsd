@@ -1,0 +1,76 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:complexType name="GameCatalog">
+		<xs:sequence>
+			<xs:element name="Games" type="Games" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Games">
+		<xs:sequence>
+			<xs:element name="Game" type="Game" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Game">
+		<xs:sequence>
+			<xs:element name="CDKey" type="xs:string" minOccurs="0" />
+			<xs:element name="Url" type="EmptyUrl" minOccurs="0" />
+			<xs:element name="Developer" type="NamedUrl" minOccurs="0" />
+			<xs:element name="Publisher" type="NamedUrl" minOccurs="0" />
+			<xs:element name="PatchInfo" type="xs:string" minOccurs="0" />
+			<xs:element name="Cheats" type="Cheats" minOccurs="0" />
+			<xs:element name="Walkthrough" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="name" type="xs:string" use="required" />
+		<xs:attribute name="genre" type="Genre" use="optional" />
+		<xs:attribute name="isbn" type="xs:string" use="optional" />
+	</xs:complexType>
+	<xs:complexType name="NamedUrl">
+		<xs:attribute name="name" type="xs:string" use="optional" />
+		<xs:attribute name="url" type="EmptyUrl" use="optional" />
+	</xs:complexType>
+	<xs:simpleType name="EmptyUrl">
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:anyURI"/>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value=""/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+	<xs:complexType name="Cheats">
+		<xs:sequence>
+			<xs:element name="Setup" type="xs:string" minOccurs="0" />
+			<xs:element name="CheatCodes" type="CheatCodes" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CheatCodes">
+		<xs:sequence>
+			<xs:element name="Code" type="Code" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Code">
+		<xs:sequence>
+			<xs:element name="Effect" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="code" type="xs:string" use="optional" />
+	</xs:complexType>
+	<xs:simpleType name="Genre">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Action"/>
+			<xs:enumeration value="Adventure"/>
+			<xs:enumeration value="FPS"/>
+			<xs:enumeration value="MMO"/>
+			<xs:enumeration value="None"/>
+			<xs:enumeration value="Puzzle"/>
+			<xs:enumeration value="RPG"/>
+			<xs:enumeration value="RTS"/>
+			<xs:enumeration value="Racing"/>
+			<xs:enumeration value="Simulation"/>
+			<xs:enumeration value="TPS"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="GameCatalog" type="GameCatalog" />
+</xs:schema>

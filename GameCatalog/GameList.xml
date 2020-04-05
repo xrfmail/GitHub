@@ -1,0 +1,225 @@
+<GameCatalog>
+  <Games>
+    <Game name="Army Men II" genre="RTS" isbn="B00001ZT4L">
+      <Developer name="Pandemic Studios" url="http://www.pandemic.com/" />
+      <Publisher name="3DO" url="http://www.3do.com" />
+      <Cheats>
+        <Setup>To use the following cheat codes, you will first need to enable Cheat Mode by doing the following:
+During the game, hit Backspace then type 
+
+!when all else fails...</Setup>
+        <CheatCodes>
+          <Code code="!a better tomorrow">
+            <Effect>Get the Vulcan Gun</Effect>
+          </Code>
+          <Code code="!acme discs">
+            <Effect>More Mines</Effect>
+          </Code>
+          <Code code="!aluminum foil">
+            <Effect>Get the Flak Jacket</Effect>
+          </Code>
+          <Code code="!armageddon">
+            <Effect>Instant Loss</Effect>
+          </Code>
+          <Code code="!doctor doctor">
+            <Effect>Refill Health</Effect>
+          </Code>
+          <Code code="!fond memories">
+            <Effect>View FMVs</Effect>
+          </Code>
+          <Code code="!fourth of july">
+            <Effect>Get the M-80</Effect>
+          </Code>
+          <Code code="!geronimo!">
+            <Effect>Air Attack</Effect>
+          </Code>
+          <Code code="!gnomish inventions">
+            <Effect>Get More Explosives</Effect>
+          </Code>
+          <Code code="!god of gamblers">
+            <Effect>Get the Sniper Rifle</Effect>
+          </Code>
+          <Code code="!I Give Up">
+            <Effect>Lose Mission</Effect>
+          </Code>
+          <Code code="!i have a rock">
+            <Effect>More Grenades</Effect>
+          </Code>
+          <Code code="!jumpjets">
+            <Effect>Flight Mode</Effect>
+          </Code>
+          <Code code="!Metal Sheeting">
+            <Effect>Grey Disguise</Effect>
+          </Code>
+          <Code code="!moleman">
+            <Effect>Fog Mode</Effect>
+          </Code>
+          <Code code="!Night Of The Walking Dead">
+            <Effect>Deceased become zombies</Effect>
+          </Code>
+          <Code code="!ninja arts">
+            <Effect>Stealth Mode</Effect>
+          </Code>
+          <Code code="!no_rocket_launcher">
+            <Effect>Get the Bazooka</Effect>
+          </Code>
+          <Code code="!paper dolls">
+            <Effect>More Paratroopers</Effect>
+          </Code>
+          <Code code="!patton's speech">
+            <Effect>All Men 5 Star Generals</Effect>
+          </Code>
+          <Code code="!phoenix!">
+            <Effect>Sarge on Fire</Effect>
+          </Code>
+          <Code code="!pooper scooper">
+            <Effect>Get the Minesweeper</Effect>
+          </Code>
+          <Code code="!roach_spray">
+            <Effect>Get Aerosol Spray Can</Effect>
+          </Code>
+          <Code code="!Rubber Cement">
+            <Effect>Instant Medical Kit</Effect>
+          </Code>
+          <Code code="!ruby ray">
+            <Effect>Get the Magnifying Glass</Effect>
+          </Code>
+          <Code code="!santini">
+            <Effect>Invincibility</Effect>
+          </Code>
+          <Code code="!Shrink Wrap">
+            <Effect>Disguise</Effect>
+          </Code>
+          <Code code="!spidey senses tingling">
+            <Effect>View Full Map</Effect>
+          </Code>
+          <Code code="!suicide kings">
+            <Effect>Kills player</Effect>
+          </Code>
+          <Code code="!surprise party">
+            <Effect>Sudden Attack</Effect>
+          </Code>
+          <Code code="!techno">
+            <Effect>Change Background Music</Effect>
+          </Code>
+          <Code code="!veni vedi vinci">
+            <Effect>Beat Current Mission</Effect>
+          </Code>
+          <Code code="!village people">
+            <Effect>Get the Flame Thrower</Effect>
+          </Code>
+          <Code code="!Warp6">
+            <Effect>Mini Map</Effect>
+          </Code>
+          <Code code="!Watchtower In The Sky">
+            <Effect>Reconnaissance flights</Effect>
+          </Code>
+        </CheatCodes>
+      </Cheats>
+      <Walkthrough />
+    </Game>
+    <Game name="Beyond Good &amp; Evil" genre="Adventure" isbn="B0000A1VEQ">
+      <Url>http://beyondgoodevil.com/us/index.php</Url>
+      <Publisher name="Ubi Soft" url="http://www.ubi.com" />
+      <PatchInfo>http://www.ubi.com/us/support/default.aspx
+	  http://www.fileplanet.com/search.aspx?q=Beyond+Good+%26+Evil</PatchInfo>
+    </Game>
+    <Game name="Black and White" genre="RTS" isbn="B00004UE0O Jewel B0000CE14O">
+      <Url>http://www.blackandwhite.ea.com/</Url>
+      <Developer name="Lionhead Studios" url="http://www.lionhead.co.uk/" />
+      <Publisher name="EA Games" url="http://www.eagames.com" />
+      <PatchInfo>http://support.ea.com/cgi-bin/ea.cfg/php/enduser/home.php?p_sid=uJNtsOQh
+http://www.planetblackandwhite.com/files/utilities/</PatchInfo>
+      <Cheats>
+        <Setup>Black &amp; White Easter Eggs
+=-=-=-=-=-=-=-=-=-=-=-=-=
+April Fools joke
+Set your PC's clock to April 1st, then run Black and White. All of the creature footprints in the game should be faces.
+
+South Park Parody
+In the first level you will come across 3 sailors that need your help.  Kill one of them, and enjoy.
+
+Conscience Hilarity
+Stay in one place and don't do anything for awhile. After sometime, the two consciences will start talking to each other about your inactivity.
+
+Telephone Joke
+In the first island, draw a line with your hand going up, right, down, right, up, right, down in straight lines. If you do it correctly, you will hear a phone ringing and your consciences will tell you to pick up the phone and you will hear some of the designers talking on the phone. They say some pretty funny stuff they were going to add in the game.
+
+
+List below is unlockables.</Setup>
+        <CheatCodes>
+          <Code code="Bear">
+            <Effect>Clean the the village in the fifth level</Effect>
+          </Code>
+          <Code code="Chimpanzee">
+            <Effect>Bring the witch a little boy or girl in the third level, the Silver Reward Scroll is by Lethys's Temple</Effect>
+          </Code>
+          <Code code="Lion">
+            <Effect>Guide a lion to his food in the fifth level</Effect>
+          </Code>
+          <Code code="Polar Bear">
+            <Effect>Do the Sailor Silver Reward Scroll in the first level, and you will meet them again in the fifth level with a Polar Bear</Effect>
+          </Code>
+          <Code code="Sheep">
+            <Effect>Help the farmer find his sheep in the first level, in your village</Effect>
+          </Code>
+          <Code code="Tortoise">
+            <Effect>Help a boy get some fish in the fourth level, by your Temple</Effect>
+          </Code>
+          <Code code="Zebra">
+            <Effect>Solve the riddle in the second level by Letthys's villages</Effect>
+          </Code>
+        </CheatCodes>
+      </Cheats>
+      <Walkthrough>http://www.lionhead.com/bw/
+http://www.lionhead.com/bw2/
+http://www.planetblackandwhite.com/
+http://blackandwhite.ea.com/</Walkthrough>
+    </Game>
+    <Game name="Black and White Creature Island" genre="RTS" isbn="B00005RZJ9">
+      <Publisher name="EA Games" url="http://www.eagames.com" />
+      <PatchInfo>http://support.ea.com/cgi-bin/ea.cfg/php/enduser/home.php?p_sid=uJNtsOQh</PatchInfo>
+    </Game>
+    <Game name="Dungeon Keeper" genre="RTS" isbn="B00004C4RI">
+      <Publisher name="EA Games" url="http://www.eagames.com" />
+    </Game>
+    <Game name="Dungeon Keeper / Dungeon Keeper 2 (Jewel Case)" genre="RTS" isbn="B00005S8H2">
+      <Publisher name="EA Games" url="http://www.eagames.com" />
+    </Game>
+    <Game name="Dungeon Keeper 2" genre="RTS" isbn="B00000K3DM">
+      <Url>http://www.dungeonkeeper2.com</Url>
+      <Publisher name="EA Games" url="http://www.eagames.com" />
+      <PatchInfo />
+      <Cheats>
+        <Setup>In order to enter the following codes, press CTRL + ALT + C, and you will hear the sound of a creaking door. Now you can enter one of the codes below for the desired effect.</Setup>
+        <CheatCodes>
+          <Code code="do not fear the reaper">
+            <Effect>Automatically Win Level</Effect>
+          </Code>
+          <Code code="feel the power">
+            <Effect>Advance all monsters' skill to 10.</Effect>
+          </Code>
+          <Code code="Fit the Best">
+            <Effect>Enable All Traps and Rooms</Effect>
+          </Code>
+          <Code code="ha ha thisaway ha ha thataway">
+            <Effect>Get 100,000 Mana</Effect>
+          </Code>
+          <Code code="i believe its magic">
+            <Effect>Get All Spells</Effect>
+          </Code>
+          <Code code="now the rain has gone">
+            <Effect>Show the Map</Effect>
+          </Code>
+          <Code code="show me the money">
+            <Effect>Get Money</Effect>
+          </Code>
+          <Code code="This is my church">
+            <Effect>Enable All Rooms</Effect>
+          </Code>
+        </CheatCodes>
+      </Cheats>
+      <Walkthrough />
+    </Game>
+  </Games>
+</GameCatalog>
